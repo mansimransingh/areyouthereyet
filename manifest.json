@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Are You There Yet",
+  "description": "Reminding you how much time has passed on a new tab",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab":"index.html"
+  }
+}
