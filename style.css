@@ -1,0 +1,36 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    min-width:320px;
+}
+
+#squares div {
+    width:7px;
+    height:7px;
+    display:inline-block;
+    margin:1px;
+    background:#fcc;
+}
+
+#question {
+    position:fixed;
+    top:40%;
+    width:100%;
+    text-align:Center;
+    background:rgba(255,255,255,0.8);
+    padding:2em;
+}
+
+h1 {
+    font-size:4em;
+}
+p {
+    font-size:2.5em;
+}
+
+
+
+
