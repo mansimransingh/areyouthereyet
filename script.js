@@ -10,10 +10,13 @@ window.onload = function(){
     }
 
     var fillSquare = function(sq){        
-        while(sq > 0) {
+        while(sq > 1) {
             sqDiv.appendChild(document.createElement('div'));
             sq--;
         }
+        var div = document.createElement('div');
+        div.className += 'now';
+        sqDiv.appendChild(div);
     }
 
     var removeAllSquares = function(){
